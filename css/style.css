@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #148af0;
+    background-color: #2d4153;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-    background-color: rgb(235, 228, 228);
+    background-color: rgb(135, 156, 159);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -35,7 +35,7 @@ body {
     width: 200px;
     height: 200px;
     border-radius: 20px;
-    background-color: #cccccc;
+    background-color: #3b3a3a;
     margin-bottom: 20px;
     display: block;
     margin-left: auto;
@@ -50,7 +50,7 @@ h1 {
 
 p {
     font-size: 14px;
-    color: #555555;
+    color: #343131;
     margin: 5px 0;
 }
 
@@ -72,7 +72,7 @@ p {
     display: inline-block;
     margin: 5px 10px 5px 0;
     text-decoration: none;
-    color: #007acc;
+    color: #000000;
     font-weight: bold;
 }
 
@@ -80,15 +80,52 @@ p {
     margin-top: 20px;
 }
 
-.message-form input,
-.message-form textarea {
+.contact info input,
+.container textarea {
     width: calc(100% - 20px);
-    padding: 10px;
-    margin: 5px 0;
-    border: 1px solid #cccccc;
+    padding:10px;
+    margin: 10px 0;
+    border: 1px solid #a3a980;
     border-radius: 4px;
 }
 
-.message-form textarea {
+message-form textarea {
     height: 60px;
+}
+
+input[type-text], input [type=email], textareat{
+width: 106%;
+padding: 12px 26px;
+box-sizing: border-box;
+border: 3px solid #bfc466;
+transition: 0.5s;
+margin: 4px 0px;
+
+}
+links-input:hover,
+links form textarea:hover {
+border: 3рx soLid #555;
+transition: 0.5s;
+}
+links-input[type-submit] :hover {
+background-color: #059669;
+coLor: white;
+border: 3px solid #059669;
+transition: 0.5s;
+cursor: pointer;
+}
+
+links-links {
+display: flex;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+coLor: #8a3333;
+font-size:20px;
+}
+
+links-buttons img{
+padding: 20px;
+max-height: 30px;
+background-color: #4faa8e;
 }
